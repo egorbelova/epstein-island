@@ -4,27 +4,27 @@ import Member from './components/Member/Member';
 const members = [
   {
     id: 1,
-    url: '../images/members/woody_allen.webp',
+    url: '/images/members/woody_allen.webp',
     name: 'Woody Allen',
   },
   {
     id: 2,
-    url: '../images/members/anil_ambani.jpg',
+    url: '/images/members/anil_ambani.jpg',
     name: 'Anil Ambani',
   },
   {
     id: 3,
-    url: '../images/members/peter-attia.jpg',
+    url: '/images/members/peter-attia.jpg',
     name: 'Peter Attia',
   },
   {
     id: 4,
-    url: '../images/members/dan-ariely.webp',
+    url: '/images/members/dan-ariely.webp',
     name: 'Dan Ariely',
   },
   {
     id: 5,
-    url: '../images/members/jose_marfa_aznar.jpg',
+    url: '/images/members/jose_marfa_aznar.jpg',
     name: 'José Marfa Aznar',
   },
 ];
@@ -48,7 +48,7 @@ export default function App() {
     <>
       <div className={styles.backgroundContainer}>
         <img
-          src='../images/-1x-1.webp'
+          src='/images/-1x-1.webp'
           alt='background'
           className={styles.background}
         />
@@ -60,7 +60,7 @@ export default function App() {
           Explore secrets, legends, and stories safely from your home.
         </p>
       </header>
-      <img src='../images/2145.webp' alt='epstein' className={styles.epstein} />
+      <img src='/images/2145.webp' alt='epstein' className={styles.epstein} />
 
       <div className={styles.membersContainer}>
         {rows.map((rowImages, rowIndex) => (
